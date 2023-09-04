@@ -1,7 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 
 function NavBar() {
-    const currentPage = useLocation().pathname;
+    // const currentPage = useLocation().pathname;
 
     return (
         <ul>
