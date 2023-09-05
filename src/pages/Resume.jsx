@@ -21,7 +21,7 @@ export default function Resume() {
 
                     <li> Polk State College
 						<ul>
-							<li>Associate’s Degree in </li>
+							<li>Associate’s Degree in Liberal Arts</li>
 						</ul>
 					</li>
 				</ul>
