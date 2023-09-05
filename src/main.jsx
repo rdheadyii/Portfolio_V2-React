@@ -7,8 +7,8 @@ import App from './App.jsx';
 import Error from './pages/Error';
 import Home from './pages/Home';
 import About from './pages/About';
-import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
+// import Portfolio from './pages/Portfolio';
+// import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 
 // defining routes that are available and components generated at each route
@@ -23,19 +23,19 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: '/about',
+        path: '/About',
         element: <About />
       },
+      // {
+      //   path: '/Portfolio',
+      //   element: <Portfolio />
+      // },
+      // {
+      //   path: '/Contact',
+      //   element: <Contact />
+      // },
       {
-        path: '/portfolio',
-        element: <Portfolio />
-      },
-      {
-        path: '/contact',
-        element: <Contact />
-      },
-      {
-        path: '/resume',
+        path: '/Resume',
         element: <Resume />
       },
     ],
