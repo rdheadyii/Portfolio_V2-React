@@ -4,7 +4,7 @@ export default function Header() {
 
     return (
         <header>
-            <h1>
+            <h1 className="text-3xl font-bold underline">
                 Russell D Heady II
             </h1>
 
